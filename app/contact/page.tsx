@@ -1,14 +1,9 @@
 'use client'
-// this is now a client component
 import Link from "next/link"
 import { useRouter } from "next/navigation"
 
-// import fs from 'fs';
-// nodejs stuff
-
 export default function Contact() {
     const router = useRouter()
-    // router.----
 
     return (
         <div>
@@ -18,8 +13,3 @@ export default function Contact() {
         </div>
     )
 }
-
-// export const getServerSideProps = () => {
-//     // all types of node js stuff here
-// }
-// not happen anymore in app directory it was before in pages directory
