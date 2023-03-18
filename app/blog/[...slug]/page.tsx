@@ -12,5 +12,6 @@ export default async function BlogPost({ params }) {
     const { slug } = params;
     const post = await getData(slug);
 
+    throw new Error('ERROR!!!')
     return <h1>{post.slug}</h1>
 }
